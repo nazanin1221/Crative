@@ -158,4 +158,44 @@ header {
 .about-text p {
   font-size: 0.938rem;
   margin: 1rem 0 1rem;
+}
+
+.sales-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+  gap: 3.5rem;
+  margin-left: 50px;
+}
+
+.sales-container .box {
+  padding: 20px;
+  background: var(--bg-color);
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  border-radius: 2rem;
+  margin-right: 16px;
+}
+
+.sales-container .box:hover {
+  background: var(--main-color);
+  color: var(--bg-color);
+  transition: 0.4s all linear;
+}
+
+.sales-container .box .bx {
+  padding: 10px;
+  border-radius: 50%;
+  background: #f6f6fe;
+  color: var(--main-color);
+  font-size: 20px;
+}
+
+.sales-container p {
+  line-height: 1.5rem;
+  font-size: 0.938rem;
+}
+
+.sales-container h3 {
+  font-size: 1.1rem;
+  margin-top: 8px;
 }/*# sourceMappingURL=index.css.map */
