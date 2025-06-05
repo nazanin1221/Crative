@@ -297,4 +297,13 @@ header {
   font-size: 12px;
   font-weight: 500;
   margin-left: 4px;
+}
+
+.properties-container .box .more {
+  margin-left: 100px;
+  line-height: 2.5rem;
+  background-color: #2288ff;
+  color: #fbfbfb;
+  padding: 8px 30px;
+  border-radius: 5px;
 }/*# sourceMappingURL=index.css.map */
