@@ -429,6 +429,7 @@ header {
   align-items: center;
   min-height: 100vh;
   margin-left: 40px;
+  margin-top: 2rem;
 }
 
 .login {
