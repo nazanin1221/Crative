@@ -420,4 +420,69 @@ header {
   text-align: center;
   color: var(--bg-color);
   background-color: var(--main-color);
+}
+
+/* log in */
+.login-container {
+  display: grid;
+  grid-template-columns: 0.4fr 1fr;
+  align-items: center;
+  min-height: 100vh;
+  margin-left: 40px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.login h2 {
+  font-size: 1.4rem;
+}
+
+.login p {
+  font-size: 0.9rem;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login form span {
+  font-size: 0.9rem;
+  color: #8a8a8a;
+  margin-bottom: 4px;
+}
+
+.login form input {
+  border: 1px solid #8a8a8a;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 1rem;
+  background-color: var(--bg-color);
+}
+
+.login form .buttom {
+  outline: none;
+  border: none;
+  background-color: var(--main-color);
+  color: var(--bg-color);
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.login form .buttom:hover {
+  background-color: #3492fd;
+}
+
+.login form a {
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+.login .btn {
+  border-radius: 0;
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */
