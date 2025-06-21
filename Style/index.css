@@ -302,8 +302,89 @@ header {
 .properties-container .box .more {
   margin-left: 100px;
   line-height: 2.5rem;
-  background-color: #2288ff;
+  background-color: #1c79e3;
   color: #fbfbfb;
   padding: 8px 30px;
   border-radius: 5px;
+}
+
+.properties-container .box .more:hover {
+  background-color: #2288ff;
+  box-shadow: var(--box-shadow);
+}
+
+.link-container {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.link-container i .brx {
+  color: #5ba2f3;
+}
+
+/*style table boxes*/
+.flex {
+  margin-left: 5px;
+}
+
+.flex img.object-fill {
+  margin-top: 3rem;
+}
+
+.newsletter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2rem;
+  text-align: center;
+}
+
+.newsletter-container h2 {
+  font-size: 1.7rem;
+}
+
+.newsletter-container form {
+  background-color: var(--bg-color);
+  box-shadow: var(--box-shadow);
+  padding: 6px 10px;
+  border-radius: 5rem;
+}
+
+.newsletter-container form input {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.newsletter-container #email-box {
+  width: 280px;
+}
+
+.newsletter-container .btn {
+  padding: 12px 34px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.footer {
+  background-color: var(--main-color);
+  color: var(--bg-color);
+  border-radius: 5rem 0 0 0;
+}
+
+.footer-container {
+  display: gird;
+  grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+  gap: 2rem;
+}
+
+.footer-container h2 {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=index.css.map */
