@@ -1,3 +1,4 @@
+@import"variables.scss";
 *{
     font-family: sans-serif;
     margin: 0;
@@ -8,16 +9,8 @@
     list-style: none;
     text-decoration: none;
 }
-/* variables*/
-:root{
-    --main-color:#2288ff;
-    --second-color:#192f6a;
-    --text-color:#314862;
-    --bg-color:#fff;
-    --box-shadow:2px 2px 18px rgba(14 52 54 /15%);
-}
 body{
-    color:var(--text-color);
+    color:$text-color;
 }
 img{
     width:100%;
@@ -33,7 +26,7 @@ section{
 header{
     display: block;
     width: 100%;
-    background-color: var(--bg-color);
+    background-color:$bg-color;
     position:fixed;
     top:0;
     left:0;
@@ -51,25 +44,25 @@ header{
     column-gap: 0.5rem;
     font-size: 1rem;
     font-weight:700;
-    color:var(--text-color);
+    color:$text-color;
     text-transform: uppercase;
 }
 .logo .bx{
     font-size:24px;
-    color:var(--main-color);
+    color:$main-color;
 }
 .navbar{
     display: flex;
 }
 .navbar a{
     padding:8px 17px;
-    color:var(--text-color);
+    color:$text-color;
     font-size:1rem;
     text-transform: uppercase;
     font-weight: 500;
 }
 .navbar a:hover{
-    color:var(--main-color);
+    color:$main-color;
 }
 #menu-icon{
     font-size: 24px;
@@ -81,8 +74,8 @@ header{
 }
 .btn{
     padding:8px 22px;
-    background-color: var(--main-color);
-    color:var(--bg-color);
+    background-color:$main-color;
+    color:$bg-color;
     border-radius: 5rem;
 }
 .btn:hover{
@@ -107,7 +100,7 @@ header{
     padding-left:35px;
 }
 .home-text h1{
-    color:var(--bg-color);
+    color:$bg-color;
     font-size:2rem;
     margin-bottom: 1rem;
 }
@@ -123,7 +116,7 @@ header{
     font-size: 1rem;
     text-transform: uppercase;
     font-weight: 500;
-    color:var(--main-color);
+    color:$main-color;
 }
 .about-text h2{
     margin-top: 10px;
@@ -142,22 +135,22 @@ header{
 }
 .sales-container .box{
     padding:20px;
-    background: var(--bg-color);
-    box-shadow: var(--box-shadow);
+    background:$bg-color;
+    box-shadow:$box-shadow;
     text-align: center;
     border-radius: 2rem;
     margin-right: 16px;
 }
 .sales-container .box:hover{
-    background: var(--main-color);
-    color:var(--bg-color);
+    background:$main-color;
+    color:$bg-color;
     transition: 0.4s all linear;
 }
 .sales-container .box .bx{
     padding:10px;
     border-radius: 50%;
     background: #f6f6fe;
-    color:var(--main-color);
+    color:$main-color;
     font-size: 20px;
 }
 .sales-container p{
@@ -176,7 +169,7 @@ header{
 }
 .heading span{
     font-weight: 500;
-    color: var(--main-color);
+    color:$main-color;
     margin-bottom: 9px;
 }
 .heading h2{
@@ -197,10 +190,10 @@ border-radius: 2rem;
     margin-top: 20px;
 }
 .properties-container .box{
-background-color: var(--bg-color);
+background-color:$bg-color;
 padding: 10px;
 border-radius: 1rem;
-box-shadow: var(--box-shadow);
+box-shadow:$box-shadow;
 height:370px;
 }
 .properties-container .box:hover{
@@ -258,7 +251,7 @@ font-weight: 500;
 }
 .properties-container .box .more:hover{
     background-color:#2288ff;
-    box-shadow: var(--box-shadow);
+    box-shadow:$box-shadow;
 }
 
 .link-container{
@@ -288,8 +281,8 @@ font-weight: 500;
     font-size: 1.7rem;
   }
 .newsletter-container form{
-    background-color: var(--bg-color);
-    box-shadow: var(--box-shadow);
+    background-color:$bg-color;
+    box-shadow: $box-shadow;
     padding: 6px 10px;
     border-radius: 5rem;
 }
@@ -307,8 +300,8 @@ font-weight: 500;
     text-transform: uppercase;
 }
 .footer{
-    background-color: var(--main-color);
-    color:var(--bg-color);
+    background-color:$main-color;
+    color:$bg-color;
     border-radius: 5rem 0 0 0;
 }
 .footer-container{
@@ -331,25 +324,25 @@ font-weight: 500;
 }
 .footer-box a{
     font-size: 0.8rem;
-    color:var(--bg-color);
+    color:$bg-color;
     font-weight: 400;
     margin-bottom: 0.7rem;
 }
 .footer-box a:hover{
-    color:var(--text-color);
+    color:$text-color;
 }
 .social a{
     font-size: 20px;
     margin-right:0.5rem;
 }
 .social a:hover{
-    color:var(--second-color);
+    color:$second-color;
 }
 .copyright{
     padding: 20px;
     text-align: center;
-    color: var(--bg-color);
-    background-color: var(--main-color);
+    color:$bg-color;
+    background-color:$main-color;
 }
 /* log in */
 .login-container{
@@ -385,13 +378,13 @@ margin-top: 2rem;
     outline: none;
     padding:10px;
     margin-bottom:1rem;
-    background-color:var(--bg-color);
+    background-color:$bg-color;
 }
 .login form .buttom{
 outline:none ;
 border: none;
-background-color: var(--main-color);
-color: var(--bg-color);
+background-color:$main-color;
+color:$bg-color;
 font-size: 0.85rem;
 font-weight: 500;
 }

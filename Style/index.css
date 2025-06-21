@@ -9,17 +9,8 @@
   text-decoration: none;
 }
 
-/* variables*/
-:root {
-  --main-color:#2288ff;
-  --second-color:#192f6a;
-  --text-color:#314862;
-  --bg-color:#fff;
-  --box-shadow:2px 2px 18px rgba(14 52 54 /15%);
-}
-
 body {
-  color: var(--text-color);
+  color: #314862;
 }
 
 img {
@@ -39,7 +30,7 @@ section {
 header {
   display: block;
   width: 100%;
-  background-color: var(--bg-color);
+  background-color: #fff;
   position: fixed;
   top: 0;
   left: 0;
@@ -60,13 +51,13 @@ header {
        column-gap: 0.5rem;
   font-size: 1rem;
   font-weight: 700;
-  color: var(--text-color);
+  color: #314862;
   text-transform: uppercase;
 }
 
 .logo .bx {
   font-size: 24px;
-  color: var(--main-color);
+  color: #2288ff;
 }
 
 .navbar {
@@ -75,14 +66,14 @@ header {
 
 .navbar a {
   padding: 8px 17px;
-  color: var(--text-color);
+  color: #314862;
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 500;
 }
 
 .navbar a:hover {
-  color: var(--main-color);
+  color: #2288ff;
 }
 
 #menu-icon {
@@ -97,8 +88,8 @@ header {
 
 .btn {
   padding: 8px 22px;
-  background-color: var(--main-color);
-  color: var(--bg-color);
+  background-color: #2288ff;
+  color: #fff;
   border-radius: 5rem;
 }
 
@@ -127,7 +118,7 @@ header {
 }
 
 .home-text h1 {
-  color: var(--bg-color);
+  color: #fff;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
@@ -146,7 +137,7 @@ header {
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 500;
-  color: var(--main-color);
+  color: #2288ff;
 }
 
 .about-text h2 {
@@ -169,16 +160,16 @@ header {
 
 .sales-container .box {
   padding: 20px;
-  background: var(--bg-color);
-  box-shadow: var(--box-shadow);
+  background: #fff;
+  box-shadow: 2px 2px 18px rgba(14, 52, 54, 0.15);
   text-align: center;
   border-radius: 2rem;
   margin-right: 16px;
 }
 
 .sales-container .box:hover {
-  background: var(--main-color);
-  color: var(--bg-color);
+  background: #2288ff;
+  color: #fff;
   transition: 0.4s all linear;
 }
 
@@ -186,7 +177,7 @@ header {
   padding: 10px;
   border-radius: 50%;
   background: #f6f6fe;
-  color: var(--main-color);
+  color: #2288ff;
   font-size: 20px;
 }
 
@@ -209,7 +200,7 @@ header {
 
 .heading span {
   font-weight: 500;
-  color: var(--main-color);
+  color: #2288ff;
   margin-bottom: 9px;
 }
 
@@ -235,10 +226,10 @@ header {
 }
 
 .properties-container .box {
-  background-color: var(--bg-color);
+  background-color: #fff;
   padding: 10px;
   border-radius: 1rem;
-  box-shadow: var(--box-shadow);
+  box-shadow: 2px 2px 18px rgba(14, 52, 54, 0.15);
   height: 370px;
 }
 
@@ -310,7 +301,7 @@ header {
 
 .properties-container .box .more:hover {
   background-color: #2288ff;
-  box-shadow: var(--box-shadow);
+  box-shadow: 2px 2px 18px rgba(14, 52, 54, 0.15);
 }
 
 .link-container {
@@ -345,8 +336,8 @@ header {
 }
 
 .newsletter-container form {
-  background-color: var(--bg-color);
-  box-shadow: var(--box-shadow);
+  background-color: #fff;
+  box-shadow: 2px 2px 18px rgba(14, 52, 54, 0.15);
   padding: 6px 10px;
   border-radius: 5rem;
 }
@@ -368,8 +359,8 @@ header {
 }
 
 .footer {
-  background-color: var(--main-color);
-  color: var(--bg-color);
+  background-color: #2288ff;
+  color: #fff;
   border-radius: 5rem 0 0 0;
 }
 
@@ -397,13 +388,13 @@ header {
 
 .footer-box a {
   font-size: 0.8rem;
-  color: var(--bg-color);
+  color: #fff;
   font-weight: 400;
   margin-bottom: 0.7rem;
 }
 
 .footer-box a:hover {
-  color: var(--text-color);
+  color: #314862;
 }
 
 .social a {
@@ -412,14 +403,14 @@ header {
 }
 
 .social a:hover {
-  color: var(--second-color);
+  color: #192f6a;
 }
 
 .copyright {
   padding: 20px;
   text-align: center;
-  color: var(--bg-color);
-  background-color: var(--main-color);
+  color: #fff;
+  background-color: #2288ff;
 }
 
 /* log in */
@@ -462,14 +453,14 @@ header {
   outline: none;
   padding: 10px;
   margin-bottom: 1rem;
-  background-color: var(--bg-color);
+  background-color: #fff;
 }
 
 .login form .buttom {
   outline: none;
   border: none;
-  background-color: var(--main-color);
-  color: var(--bg-color);
+  background-color: #2288ff;
+  color: #fff;
   font-size: 0.85rem;
   font-weight: 500;
 }
