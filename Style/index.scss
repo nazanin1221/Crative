@@ -1,6 +1,6 @@
 @import"variables.scss";
 *{
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -262,14 +262,33 @@ font-weight: 500;
 .link-container i .brx{
     color: #5ba2f3;
 }
- /*style table boxes*/
- .flex{
+ /*style gallery boxes*/
+.flex{
     margin-left:5px;
  }
- .flex img.object-fill{
+.flex img.object-fill{
     margin-top: 3rem;
  }
-  .newsletter-container{
+.gallery-container {
+    scroll-behavior: smooth;
+        }
+
+.amenity-item:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+        }
+.gallery-grid img:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+        }
+.form-input:focus {
+     border-color: #1E90FF;
+     outline: none;
+        }
+.image-overlay {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+        }
+.newsletter-container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -277,7 +296,7 @@ font-weight: 500;
     row-gap: 2rem;
     text-align: center;
   }
-  .newsletter-container h2{
+.newsletter-container h2{
     font-size: 1.7rem;
   }
 .newsletter-container form{

@@ -1,0 +1,214 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Waterfront Villa | Real Estate</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>tailwind.config={theme:{extend:{colors:{primary:'#1E90FF',secondary:'#4169E1'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <link rel="stylesheet" href="./Style/index.css">
+        <!--BOX ICONS GITHUB-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body class="bg-white">
+    <!--Navbar-->
+<header>
+    <div class="nav-container">
+        <!--Logo-->
+        <a href="index.html" class="logo text-xl"><i class='bx  bx-home-alt text-2xl'></i>R State </a>
+            <!--Login in  button-->
+            <a href="sign-up.html" class="btn">Sign Up</a>
+        </div>
+    </div>
+</header>
+    <div class="relative w-full h-[600px] overflow-hidden">
+        <div class="gallery-container relative w-full h-full">
+            <div class="gallery-slide absolute inset-0 transition-opacity duration-500 opacity-100">
+                <img src="./img/about.jpg" class="w-full  mt-15 h-full">
+                <div class="absolute top-8 right-8 z-20 bg-primary text-white px-6 py-2 rounded-button font-semibold text-xl shadow-lg mt-20">
+                    $4,850,000
+                </div>
+            </div>
+        </div>
+    </div>
+     <main class="max-w-7xl mx-auto px-4">
+        <section class="property-overview">
+            <h1 class="text-4xl font-bold ">Luxury Waterfront Villa with Nature Views</h1>
+            <div class="flex items-center text-gray-600 mb-6">
+                <div class="w-6 h-6 flex items-center justify-center mr-2">
+                    <i class="ri-map-pin-line ri-lg"></i>
+                </div>
+                <span>1234 Coastal Drive, Malibu, California 90265</span>
+            </div>
+            <!--overview-->
+             <div class="grid grid-cols-4 md:grid-cols-5 gap-6 bg-gray-50 p-6 rounded-lg shadow-sm">
+                <div class="feature-item flex flex-col items-center">
+                    <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-2">
+                        <i class="ri-hotel-bed-line ri-lg text-primary"></i>
+                    </div>
+                    <span class="text-lg font-semibold">5</span>
+                    <span class="text-sm text-gray-500">Bedrooms</span>
+                </div>
+                <div class="feature-item flex flex-col items-center">
+                    <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-2">
+                        <i class="ri-shower-line ri-lg text-primary"></i>
+                    </div>
+                    <span class="text-lg font-semibold">6.5</span>
+                    <span class="text-sm text-gray-500">Bathrooms</span>
+                </div>
+                <div class="feature-item flex flex-col items-center">
+                    <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-2">
+                        <i class="ri-ruler-line ri-lg text-primary"></i>
+                    </div>
+                    <span class="text-lg font-semibold">7,850</span>
+                    <span class="text-sm text-gray-500">Sq Ft</span>
+                </div>
+                <div class="feature-item flex flex-col items-center">
+                    <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-2">
+                        <i class="ri-car-line ri-lg text-primary"></i>
+                    </div>
+                    <span class="text-lg font-semibold">3</span>
+                    <span class="text-sm text-gray-500">Garage</span>
+                </div>
+                          <div class=" flex flex-col items-center">
+                    <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-2">
+                        <i class="ri-calendar-line ri-lg text-primary"></i>
+                    </div>
+                    <span class="text-lg font-semibold">2022</span>
+                    <span class="text-sm text-gray-500">Year Built</span>
+                </div>
+            </div>
+            </section>
+             <section class="property-description">
+            <div class="flex justify-between items-center">
+                <h2 class="text-2xl font-semibold">Property Description</h2>
+                <button id="expandBtn" class="text-primary flex items-center whitespace-nowrap">
+                    <span>Show more</span>
+                    <div class="w-5 h-5 flex items-center justify-center ml-1">
+                        <i class="ri-arrow-down-s-line"></i>
+                    </div>
+                </button>
+            </div>
+            <!--description home-->
+            <div id="descriptionContent" class="text-gray-700 leading-relaxed mb-8 max-h-[150px] overflow-hidden transition-all duration-500">
+                <p class="mb-4">Welcome to this breathtaking waterfront villa, where luxury meets coastal living. This architectural masterpiece offers an unparalleled lifestyle with panoramic ocean views from nearly every room. Completed in 2022, this contemporary residence features soaring ceilings, walls of glass, and seamless indoor-outdoor living spaces.</p>
+                
+                <p class="mb-4">The main level showcases an open-concept design with a gourmet kitchen featuring top-of-the-line appliances, custom cabinetry, and a large center island. The adjacent great room opens to an expansive terrace with an infinity pool that appears to merge with the ocean beyond. The primary suite is a true sanctuary with a private balcony, spa-like bathroom, and custom walk-in closets.</p>
+                
+                <p class="mb-4">Additional features include a home theater, wine cellar, fitness room, and smart home technology throughout. The property is situated on 1.2 acres with 120 feet of ocean frontage, offering privacy and direct beach access. Meticulously landscaped grounds include multiple outdoor entertaining areas, a summer kitchen, and a fire pit lounge.</p>
+                
+                <p>This exceptional residence represents the pinnacle of coastal luxury living, combining architectural excellence with an irreplaceable location. Don't miss this rare opportunity to own one of the most prestigious properties on the California coastline.</p>
+            </div>
+            
+            <h3 class="text-xl font-semibold mb-4">Property Highlights</h3>
+            <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-2 mb-8 list-none">
+                <li class="flex items-start">
+                    <div class="w-5 h-5 flex items-center justify-center text-primary mt-1 mr-2">
+                        <i class="ri-check-line"></i>
+                    </div>
+                    <span>Panoramic ocean views from all principal rooms</span>
+                </li>
+                <li class="flex items-start">
+                    <div class="w-5 h-5 flex items-center justify-center text-primary mt-1 mr-2">
+                        <i class="ri-check-line"></i>
+                    </div>
+                    <span>Infinity edge pool and spa overlooking the ocean</span>
+                </li>
+                <li class="flex items-start">
+                    <div class="w-5 h-5 flex items-center justify-center text-primary mt-1 mr-2">
+                        <i class="ri-check-line"></i>
+                    </div>
+                    <span>Chef's kitchen with premium appliances</span>
+                </li>
+                <li class="flex items-start">
+                    <div class="w-5 h-5 flex items-center justify-center text-primary mt-1 mr-2">
+                        <i class="ri-check-line"></i>
+                    </div>
+                    <span>Home automation and security system</span>
+                </li>
+                <li class="flex items-start">
+                    <div class="w-5 h-5 flex items-center justify-center text-primary mt-1 mr-2">
+                        <i class="ri-check-line"></i>
+                    </div>
+                    <span>Private beach access and boat dock</span>
+                </li>
+                <li class="flex items-start">
+                    <div class="w-5 h-5 flex items-center justify-center text-primary mt-1 mr-2">
+                        <i class="ri-check-line"></i>
+                    </div>
+                    <span>Temperature-controlled wine cellar</span>
+                </li>
+                <li class="flex items-start">
+                    <div class="w-5 h-5 flex items-center justify-center text-primary mt-1 mr-2">
+                        <i class="ri-check-line"></i>
+                    </div>
+                    <span>Home theater with professional sound system</span>
+                </li>
+                <li class="flex items-start">
+                    <div class="w-5 h-5 flex items-center justify-center text-primary mt-1 mr-2">
+                        <i class="ri-check-line"></i>
+                    </div>
+                    <span>Fully equipped fitness room and sauna</span>
+                </li>
+            </ul>
+            
+            <!--Facilities-->
+            <h3 class="text-xl font-semibold mb-4">Amenities</h3>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+                <div class="amenity-item bg-gray-50 p-4 rounded-lg flex flex-col items-center text-center transition-all duration-300">
+                    <div class="w-10 h-10 flex items-center justify-center text-primary mb-2">
+                        <i class="ri-swim-line ri-lg"></i>
+                    </div>
+                    <span class="text-sm">Infinity Pool</span>
+                </div>
+                <div class="amenity-item bg-gray-50 p-4 rounded-lg flex flex-col items-center text-center transition-all duration-300">
+                    <div class="w-10 h-10 flex items-center justify-center text-primary mb-2">
+                        <i class="ri-ship-line ri-lg"></i>
+                    </div>
+                    <span class="text-sm">Private Dock</span>
+                </div>
+                <div class="amenity-item bg-gray-50 p-4 rounded-lg flex flex-col items-center text-center transition-all duration-300">
+                    <div class="w-10 h-10 flex items-center justify-center text-primary mb-2">
+                        <i class="ri-film-line ri-lg"></i>
+                    </div>
+                    <span class="text-sm">Home Theater</span>
+                </div>
+                <div class="amenity-item bg-gray-50 p-4 rounded-lg flex flex-col items-center text-center transition-all duration-300">
+                    <div class="w-10 h-10 flex items-center justify-center text-primary mb-2">
+                        <i class="ri-goblet-line ri-lg"></i>
+                    </div>
+                    <span class="text-sm">Wine Cellar</span>
+                </div>
+                <div class="amenity-item bg-gray-50 p-4 rounded-lg flex flex-col items-center text-center transition-all duration-300">
+                    <div class="w-10 h-10 flex items-center justify-center text-primary mb-2">
+                        <i class="ri-heart-pulse-line ri-lg"></i>
+                    </div>
+                    <span class="text-sm">Fitness Room</span>
+                </div>
+                <div class="amenity-item bg-gray-50 p-4 rounded-lg flex flex-col items-center text-center transition-all duration-300">
+                    <div class="w-10 h-10 flex items-center justify-center text-primary mb-2">
+                        <i class="ri-fire-line ri-lg"></i>
+                    </div>
+                    <span class="text-sm">Outdoor Firepit</span>
+                </div>
+                <div class="amenity-item bg-gray-50 p-4 rounded-lg flex flex-col items-center text-center transition-all duration-300">
+                    <div class="w-10 h-10 flex items-center justify-center text-primary mb-2">
+                        <i class="ri-restaurant-line ri-lg"></i>
+                    </div>
+                    <span class="text-sm">Summer Kitchen</span>
+                </div>
+                <div class="amenity-item bg-gray-50 p-4 rounded-lg flex flex-col items-center text-center transition-all duration-300">
+                    <div class="w-10 h-10 flex items-center justify-center text-primary mb-2">
+                        <i class="ri-shield-check-line ri-lg"></i>
+                    </div>
+                    <span class="text-sm">Security System</span>
+                </div>
+            </div>
+        </section>
+</body>
+</html>
