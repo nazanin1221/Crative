@@ -10,4 +10,4 @@ I spent about **two weeks** working on it!
 ## Final Thoughts
  and I'm happy to have successfully completed my first relatively big project!🎉  
 
-**Good luck!**😊
+**Good luck!** 😊
