@@ -1,13 +1,13 @@
-# Real Estate Management Project#
+## Real Estate Management Project
 This is a simple system for displaying and managing properties.  
 
-# Learning Resources
+## Learning Resources
 I used YouTube tutorials to help build this project.  
 
-# Development Time  
+## Development Time  
 I spent about **two weeks** working on it!
 
-# Final Thoughts
+## Final Thoughts
  and I'm happy to have successfully completed my first relatively big project!🎉  
 
 **Good luck!**😊
